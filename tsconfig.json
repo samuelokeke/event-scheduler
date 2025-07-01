@@ -9,6 +9,13 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
+  "ts-node": {
+    "files": true,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
   "include": ["src", "src/index.ts"],
   "exclude": ["node_modules", "dist"]
 }
